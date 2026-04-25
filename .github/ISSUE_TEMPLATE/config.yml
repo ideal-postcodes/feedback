@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Account, billing, or sensitive issues
+    url: mailto:support@ideal-postcodes.co.uk
+    about: For anything involving account access, invoices, or sensitive data, email support directly. Do not post credentials here.
+  - name: Documentation
+    url: https://docs.ideal-postcodes.co.uk
+    about: Most "how do I…" questions are answered in the docs.

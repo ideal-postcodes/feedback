@@ -1,0 +1,85 @@
+name: Bug report
+description: Something isn't working as expected
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for filing a bug report. Before submitting, please:
+        - Check the [docs](https://docs.ideal-postcodes.co.uk) and existing issues
+        - **Do not include API keys, user tokens, or personal data.** Redact addresses, emails, and identifiers from logs and screenshots.
+
+  - type: dropdown
+    id: product
+    attributes:
+      label: Product
+      description: Which product is this about?
+      options:
+        - "CLI (@ideal-postcodes/cli)"
+        - "Ideal Postcodes API"
+        - "Address Finder Library"
+        - "Library"
+        - "Agent skills (@ideal-postcodes/skills)"
+        - "Documentation (docs.ideal-postcodes.co.uk)"
+        - "Other / not sure"
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: Package version, API version, or commit SHA. For the CLI, run `idpc --version`.
+      placeholder: "e.g. @ideal-postcodes/cli v0.1.0"
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: A clear description of the bug.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+      description: What should have happened instead?
+    validations:
+      required: true
+
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      description: Minimal commands, code, or API calls that reproduce the issue. Redact secrets.
+      placeholder: |
+        1. Run `idpc cleanse "..."` with `--api-key ak_xxxxx`
+        2. Observe error code `...`
+      render: shell
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, runtime, and any relevant context (CI, container, agent harness, etc.).
+      placeholder: |
+        - OS: macOS 14.5 / Ubuntu 24.04 / Windows 11
+        - Node: v22.x
+        - Context: terminal / CI (GitHub Actions) / Claude Code / etc.
+      render: markdown
+    validations:
+      required: false
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / output
+      description: Relevant error output. Redact secrets.
+      render: shell
+    validations:
+      required: false
