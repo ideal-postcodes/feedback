@@ -18,7 +18,7 @@ body:
         - "CLI (@ideal-postcodes/cli)"
         - "Ideal Postcodes API"
         - "Address Finder Library"
-        - "Library"
+        - "Postcode Lookup Library"
         - "Agent skills (@ideal-postcodes/skills)"
         - "Documentation (docs.ideal-postcodes.co.uk)"
         - "Other / not sure"
