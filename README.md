@@ -21,6 +21,7 @@ Use it to:
 
 - **Account, billing, or sensitive issues** → email [support@ideal-postcodes.co.uk](mailto:support@ideal-postcodes.co.uk).
   **Do not post API keys, user tokens, addresses, or other personal data here.** Issues are public.
+- **Security vulnerabilities** → see [SECURITY.md](./SECURITY.md). Do not file them publicly.
 - **Ecommerce integrations** — these have their own public repos:
   - [`woocommerce`](https://github.com/ideal-postcodes/woocommerce) · [`magento`](https://github.com/ideal-postcodes/magento) · [`shopify`](https://github.com/ideal-postcodes/shopify) · [`bigcommerce-app`](https://github.com/ideal-postcodes/bigcommerce-app) · [`salesforce`](https://github.com/ideal-postcodes/salesforce)
 
