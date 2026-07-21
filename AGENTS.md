@@ -95,7 +95,6 @@ Pick exactly one in the **Product** section. Canonical strings:
 ## What does NOT belong here
 
 - **Account, billing, sensitive issues** → email `support@ideal-postcodes.co.uk`. Do not file public issues with credentials, invoices, or PII.
-- **Ecommerce integration bugs** (`woocommerce`, `magento`, `shopify`, `bigcommerce-app`, `salesforce`) → file in their own repos under `ideal-postcodes/<integration>`.
 
 If unsure whether something belongs, file with product = "Other / not sure" and triage will redirect.
 
