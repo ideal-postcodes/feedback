@@ -28,10 +28,6 @@ In scope — the products this tracker covers:
 - `@ideal-postcodes/skills`
 - [docs.ideal-postcodes.co.uk](https://docs.ideal-postcodes.co.uk)
 
-Out of scope — report in the relevant repo:
-
-- Ecommerce integrations: [`woocommerce`](https://github.com/ideal-postcodes/woocommerce), [`magento`](https://github.com/ideal-postcodes/magento), [`shopify`](https://github.com/ideal-postcodes/shopify), [`bigcommerce-app`](https://github.com/ideal-postcodes/bigcommerce-app), [`salesforce`](https://github.com/ideal-postcodes/salesforce)
-
 ## Please don't
 
 - Post vulnerabilities, exploits, or PoCs in public issues or PRs.

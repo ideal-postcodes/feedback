@@ -63,22 +63,22 @@ Two markdown templates live in `.github/ISSUE_TEMPLATE/`:
 
 Both are plain markdown. `gh issue create --template <name>` opens an editor pre-filled with the template; for non-interactive use, render the body yourself and pass `--body`.
 
-The `.yml` issue *forms* in the same directory are for the GitHub web UI only — **`gh` and the API ignore them**. Use the `.md` templates for programmatic filing.
+The `.yml` issue _forms_ in the same directory are for the GitHub web UI only — **`gh` and the API ignore them**. Use the `.md` templates for programmatic filing.
 
 ## Required fields
 
 These are the fields a triager needs to act on a bug. Agents should populate all of them:
 
-| Field | Required | Notes |
-|---|---|---|
-| Title | yes | Prefix with `[bug]` or `[feature]`. Be specific (mention the command, endpoint, or library affected). |
-| Product | yes | Use the canonical labels (see below). |
-| Version | yes (bugs) | Package version, API version, or commit SHA. |
-| What happened | yes (bugs) | Concrete description of observed behaviour. |
-| Expected | yes (bugs) | What should have happened. |
-| Steps to reproduce | yes (bugs) | Minimal repro. Redact secrets. |
-| Problem | yes (features) | Underlying problem, not the solution. |
-| Proposed solution | yes (features) | Specific behaviour you want. |
+| Field              | Required       | Notes                                                                                                 |
+| ------------------ | -------------- | ----------------------------------------------------------------------------------------------------- |
+| Title              | yes            | Prefix with `[bug]` or `[feature]`. Be specific (mention the command, endpoint, or library affected). |
+| Product            | yes            | Use the canonical labels (see below).                                                                 |
+| Version            | yes (bugs)     | Package version, API version, or commit SHA.                                                          |
+| What happened      | yes (bugs)     | Concrete description of observed behaviour.                                                           |
+| Expected           | yes (bugs)     | What should have happened.                                                                            |
+| Steps to reproduce | yes (bugs)     | Minimal repro. Redact secrets.                                                                        |
+| Problem            | yes (features) | Underlying problem, not the solution.                                                                 |
+| Proposed solution  | yes (features) | Specific behaviour you want.                                                                          |
 
 ## Product labels
 
@@ -95,7 +95,6 @@ Pick exactly one in the **Product** section. Canonical strings:
 ## What does NOT belong here
 
 - **Account, billing, sensitive issues** → email `support@ideal-postcodes.co.uk`. Do not file public issues with credentials, invoices, or PII.
-- **Ecommerce integration bugs** (`woocommerce`, `magento`, `shopify`, `bigcommerce-app`, `salesforce`) → file in their own repos under `ideal-postcodes/<integration>`.
 
 If unsure whether something belongs, file with product = "Other / not sure" and triage will redirect.
 
