@@ -12,6 +12,7 @@ Use it to:
 
 - **General questions** about products, integration patterns, or pricing
 - **`@ideal-postcodes/cli`**
+- **`@ideal-postcodes/sdk`**
 - **Ideal Postcodes API**
 - **Frontend UI Libraries**
 - **Documentation**
