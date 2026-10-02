@@ -19,6 +19,7 @@ Before filing:
 - [ ] Ideal Postcodes API
 - [ ] Address Finder Library
 - [ ] Postcode Lookup Library
+- [ ] TypeScript SDK (@ideal-postcodes/sdk)
 - [ ] Agent skills (@ideal-postcodes/skills)
 - [ ] Documentation (docs.ideal-postcodes.co.uk)
 - [ ] Other / not sure
